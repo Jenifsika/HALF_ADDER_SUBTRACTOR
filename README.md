@@ -56,18 +56,52 @@ Developed by:Annie Jenifsika A
 
 RegisterNumber:212224230019
 
-![Screenshot 2025-04-23 223152](https://github.com/user-attachments/assets/47eb3969-4c04-4981-a4a6-2172c8fd3faa)
+module halfadd_top(a,b,sum,carry);
+
+input a,b;
+
+output sum,carry;
+
+assign sum = a^b;
+
+assign carry = a & b;
+
+endmodule
+
+module halfsub_top(a,b,D,Bo);
+
+input a,b;
+
+output D,Bo; // Outputs sum and carry for half adder:Outputs difference
+
+D,Borrow Bo for half subtractor
+
+assign D = a ^ b;
+
+assign Bo = ~a & b;
+
+endmodule
+
 
 */
 
 **RTL Schematic**
 
-![Screenshot 2025-04-23 223158](https://github.com/user-attachments/assets/872e3108-667d-4929-b9af-1517700e5d00)
+![screenshot(1 3)](https://github.com/user-attachments/assets/2ffad3f9-c15f-4e30-a2ff-54a884063758)
+
 
 **Output/TIMING Waveform**
 
-![screenshot (9)](https://github.com/user-attachments/assets/8f08ae17-3b3b-457b-bc22-0f5efffb5124)
+HALF ADDER
+
+![screenshot(1 2)](https://github.com/user-attachments/assets/f7a3a896-8d1e-46ea-97da-3ca39af063ae)
+
+HALF SUBTRACTOR
+
+![screenshott(1 1)](https://github.com/user-attachments/assets/b9f897ee-f787-4fed-99ef-d3759e02d907)
+
+
 
 **Result:**
 
-Thus the basic logic gate are satisfied and the truth tables are verified.
+Thus the output of HALF_ADDER_SUBTRACTOR has been executed successfully.
