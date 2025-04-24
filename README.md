@@ -93,12 +93,12 @@ endmodule
 **Output/TIMING Waveform**
 
 HALF ADDER
+![image](https://github.com/user-attachments/assets/02677798-0c68-46da-b252-d4c94abb2b5e)
 
-![screenshot(1 2)](https://github.com/user-attachments/assets/f7a3a896-8d1e-46ea-97da-3ca39af063ae)
 
 HALF SUBTRACTOR
 
-![screenshott(1 1)](https://github.com/user-attachments/assets/b9f897ee-f787-4fed-99ef-d3759e02d907)
+![image](https://github.com/user-attachments/assets/0c7386bc-7135-426c-83e4-554b484effec)
 
 
 
